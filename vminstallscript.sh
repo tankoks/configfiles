@@ -15,6 +15,12 @@ sudo apt-get -y install python3-pip
 sudo apt-get -y install wget
 sudo apt-get -y install git
 
+#vimconfig
+mkdir ~vim
+mkdir ~vim/colors
+wget -O ~/ https://raw.githubusercontent.com/tankoks/configfiles/master/.vimrc
+wget -O ~/vim/colors/ https://raw.githubusercontent.com/tankoks/configfiles/master/vim/colors/monokai.vim
+
 #Resources for Class
 mkdir ~/CS1331
 mkdir ~/CS1331/resources
