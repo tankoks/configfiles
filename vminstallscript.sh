@@ -16,7 +16,7 @@ sudo apt-get -y install wget
 sudo apt-get -y install git
 
 #vimconfig
-sudo apt-get install vim
+sudo apt-get -y install vim
 mkdir ~vim
 mkdir ~vim/colors
 wget -O ~/ https://raw.githubusercontent.com/tankoks/configfiles/master/.vimrc
