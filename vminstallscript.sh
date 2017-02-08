@@ -20,7 +20,7 @@ sudo apt-get -y install vim
 mkdir ~/.vim
 mkdir ~/.vim/colors
 wget -O ~/.vimrc https://raw.githubusercontent.com/tankoks/configfiles/master/.vimrc
-wget -O ~/vim/colors/monokai.vim https://raw.githubusercontent.com/tankoks/configfiles/master/vim/colors/monokai.vim
+wget -O ~/.vim/colors/monokai.vim https://raw.githubusercontent.com/tankoks/configfiles/master/vim/colors/monokai.vim
 
 #Resources for Class
 mkdir ~/CS1331
