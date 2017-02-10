@@ -28,7 +28,7 @@ mkdir ~/CS1331/resources
 wget -O ~/CS1331/resources/checkstyle-6.2.2.jar http://cs1331.gatech.edu/resources/checkstyle-6.2.2.jar
 
 #VM Additions
-sudo apt-get install virtualbox-guest-additions-iso
+sudo apt-get -y install virtualbox-guest-additions-iso
 sudo mount /usr/share/virtualbox/VBoxGuestAdditions.iso /media/dev
 sudo sh /media/dev/VBoxLinuxAdditions.run
 sudo reboot
